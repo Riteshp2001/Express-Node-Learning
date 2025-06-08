@@ -1,7 +1,4 @@
-# Express API Starter 🚀
-
-A production-ready Express.js API starter template with authentication, subscription management, workflow automation, and comprehensive security features.
-
+# Express API Backend Project
 ## ✨ Features
 
 - **Authentication & Authorization**: JWT-based authentication with bcrypt password hashing
