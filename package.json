@@ -1,0 +1,42 @@
+{
+	"name": "express-api-project",
+	"version": "1.2.0",
+	"description": "A basic starter for an express.js API",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node src/index.js",
+		"dev": "nodemon src/index.js",
+		"lint": "eslint --fix src",
+		"install-latest": "pnpm up --latest"
+	},
+	"keywords": [],
+	"author": "Ritesh Pandit",
+	"license": "MIT",
+	"dependencies": {
+		"@arcjet/inspect": "1.0.0-beta.8",
+		"@arcjet/node": "1.0.0-beta.8",
+		"@upstash/workflow": "^0.2.13",
+		"bcryptjs": "^3.0.2",
+		"cookie-parser": "^1.4.7",
+		"cors": "^2.8.5",
+		"dayjs": "^1.11.13",
+		"dotenv": "^16.5.0",
+		"express": "^4.21.2",
+		"helmet": "^8.1.0",
+		"jsonwebtoken": "^9.0.2",
+		"mongodb": "^6.17.0",
+		"mongoose": "^8.15.1",
+		"morgan": "^1.10.0",
+		"nodemailer": "^7.0.3"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.28.0",
+		"eslint": "^8.57.1",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-import": "^2.31.0",
+		"globals": "^16.2.0",
+		"nodemon": "^3.1.10",
+		"supertest": "^7.1.1"
+	}
+}

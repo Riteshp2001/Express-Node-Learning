@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Node Testing Screen</title>
+		<style>
+			/* Base styles for dark mode */
+			* {
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+
+			body {
+				font-family: "Inter", sans-serif; /* Using Inter font for a modern look */
+				margin: 0;
+				padding: 0;
+				background-color: #1a1a1a; /* Dark background */
+				color: #e0e0e0; /* Light text color */
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 100vw;
+				height: 100vh;
+			}
+			header h1 {
+				margin: 0;
+				font-size: 2.8rem; /* Slightly larger title */
+				font-weight: 600; /* Semibold */
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Node Testing Screen</h1>
+			<p>Navigate to Corresponding API Endpoints Available</p>
+			<h3>Available Endpoints:</h3>
+			<ul>
+				<li><a href="/api/v1/users" style="color: #4caf50">ALL Users</a></li>
+				<li><a href="/api/v1/users/224534" style="color: #4caf50">User ID Details</a></li>
+				<li><a href="/api/v1/subscriptions/upcoming-subscriptions" style="color: #9c27b0">Upcoming Subscriptions</a></li>
+				<li><a href="/api/v1/subscriptions" style="color: #2196f3">All Subscriptions</a></li>
+				<li><a href="/api/v1/subscriptions/12345" style="color: #2196f3">Subscription ID Details</a></li>
+				<li><a href="/api/v1/subscriptions/users/67890" style="color: #ff9800">User Subscriptions</a></li>
+				<li><a href="/api/v1/subscriptions/upcoming-subscriptions" style="color: #9c27b0">Update Upcoming Subscriptions</a></li>
+			</ul>
+		</header>
+	</body>
+</html>
